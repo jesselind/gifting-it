@@ -7,12 +7,11 @@ import { LogoutComponent } from '../app/pages/logout/logout.component';
 import { NavigationComponent } from './navigation/navigation.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/navigation', pathMatch: 'full' },
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
   { path: 'lists', component: ListsComponent },
   { path: 'login', component: LoginComponent },
   { path: 'logout', component: LogoutComponent },
-  { path: 'navigation', component: NavigationComponent }
 ];
 
 @NgModule({

@@ -10,7 +10,7 @@
       <a mat-list-item
          href="#">Home</a>
       <a mat-list-item
-         href="#">My Lists</a>
+         routerLink="/lists">My Lists</a>
       <mat-divider></mat-divider>
       <a mat-list-item
          routerLink="/logout">Logout</a>
@@ -28,6 +28,6 @@
       </button>
       <span>Gifting It</span>
     </mat-toolbar>
-    <!-- Add Content Here -->
+    <router-outlet></router-outlet>
   </mat-sidenav-content>
 </mat-sidenav-container>
